@@ -47,11 +47,20 @@ nav a:hover {
   color: var(--text);
 }
 
+a:link {
+  color: #ffffff;
+}
+
 .hero {
   min-height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  a:link {
+  color: #000000;
+}
+
 }
 
 .hero h1 {
@@ -105,11 +114,6 @@ section h2 {
 .project-card p {
   color: var(--muted);
   margin-bottom: 18px;
-}
-
-.tech {
-  font-size: 0.9rem;
-  color: var(--accent);
 }
 
 .button {
