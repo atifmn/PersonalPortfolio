@@ -25,7 +25,7 @@ body {
 }
 
 .container {
-  width: min(1100px, 90%);
+  width: min(1050px, 90%);
   margin: auto;
 }
 
@@ -40,7 +40,7 @@ nav a {
   color: var(--muted);
   text-decoration: none;
   margin-left: 24px;
-  transition: 0.2s;
+  transition: 0.25s;
 }
 
 nav a:hover {
@@ -60,7 +60,6 @@ a:link {
   a:link {
   color: #000000;
 }
-
 }
 
 .hero h1 {
